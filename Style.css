@@ -1,0 +1,67 @@
+body{
+    background-image: 
+    url("obj9");
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: .8 !important;
+    }
+    .mb {
+      margin-bottom: 16px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .copy{
+      margin-top: 100px;
+      color: white;
+      margin-right: 1000px;
+      opacity: 1;
+    }
+    label {
+      display: block;
+      margin-left: 13px;
+    }
+    .select{
+      color: darkgray;
+      background-color: black;
+      margin-left: 2.5rem;
+      opacity: 1 !important; 
+      font-family: Helvetica;
+      font-weight: bold;
+      border-radius: 5rem;
+      width: 11rem;
+      height: 2rem;
+      font-size: .9rem;
+      text-transform: uppercase;
+      padding: .2rem .4rem;
+    }
+    .button{
+      background-color: darkgray;
+      color: black;   
+      margin-left: 63px;
+      font-family: Helvetica;
+      font-weight: bold;  
+      margin: 1rem 2rem; 
+      width: 75%;
+      height: 2rem;
+      border-radius: 5rem;
+    }
+    .button:hover {
+      background-color: white;
+    }
+    .input{
+      background-color: black;
+      color: white;
+      line-height: normal;
+      margin: .2rem 2.25rem;
+      opacity: .80;
+      width: 10rem;
+      height: 1.2rem;
+    }
+    .form {
+      border: dotted;
+      background-color: lightslategray;
+      margin: auto;
+      border-color: blue;
+      border-radius: 3px;
+      width: 16rem;
+    }

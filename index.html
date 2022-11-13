@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>areas</title>
+    <link href="Style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <form>
+      <h1 style="text-align: center; text-transform: uppercase; color: white; opacity: 1;">input info and click calculate to get results</h1>
+      <div class="form">
+        <div style="background-color: white; text-align: center; text-transform: uppercase;"><br><br><h3>PLEASE SELECT OPTION<br>AND INPUT NUMBERS</h3><br><br></div>
+      <div class="mb">
+        <label>
+          Length/Height/Base1/Side:
+        </label>
+        <input type="text" id="lenrec" class="input">
+      </div>
+      <div class="mb">
+        <label>
+          Width/Base2/Radius(for circle):
+        </label>
+        <input type="text" id="widrec" class="input" />
+      </div>
+      <div class="mb">
+        <label>
+          Height:
+        </label>
+        <input type="text" id="hrec" class="input">
+      </div>
+      <div id="main-content">
+      <select id="select" class="select">
+        <option value="rectangle">
+          <span class="span">rectangle</span>
+        </option>
+        <option value="square">
+          <span class="span">square</span>
+        </option>
+        <option value="triangle">
+          <span class="span">triangle</span>
+        </option>
+        <option value="circle">
+          <span class="span">circle</span>
+        </option>
+        <option value="trapezoid">
+          <span class="span">trapezoid</span>
+        </option>
+        <option value="parallelogram">
+          <span class="span">parallelogram</span>
+        </option>
+      </select><br>
+      <input type="button" value="calculate area" onclick="cal(document.getElementById('select').value)" class="button">
+       </div>
+       </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript" src="Area-Js.js"></script>
+    <p class="copy">&copy; all rights resrved<br>by moshe polter</p>
+  </body>
+</html>
